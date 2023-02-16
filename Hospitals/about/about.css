@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    overflow: hidden;    
+    background-color: rgb(237, 243, 245);    
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+.hdrlogo img{
+    margin-top: 10px;
+    width: 140px;
+}
+.hdrlist ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.hdrlist ul li{
+    margin-top: 15px;
+    margin-right: 80px;
+    list-style: none;
+
+}
+.hdrlist ul li a{
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27vw;
+    margin-right: 27vw;
+    margin-top: 25vh;
+}
+.showcase h1{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #23b976;
+}
+
+.showcase p {
+    text-align: center;
+    font-size: 19px;
+    line-height: 27px;
+}
+.milestone{
+    margin-top: 5vh;
+    display: flex;
+    margin-left: 23vw;
+    margin-right: 23vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.journey{
+    
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(46, 124, 67);
+    text-align: center;
+}   
+
+.journey span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #23b976;
+}
+.journey p{
+    font-size: 20px;
+    font-weight: 500;
+}

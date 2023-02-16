@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+
+    overflow: hidden;    
+    background-color: rgb(237, 243, 245);    
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    /* height: fit-content; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 5vw;
+}
+.hdrlogo img{
+    margin-top: 10px;
+    width: 140px;
+}
+.hdrlist ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.hdrlist ul li{
+    margin-top: 15px;
+    margin-right: 80px;
+    list-style: none;
+
+}
+.hdrlist ul li a{
+    font-size: 17px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+main{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px 20px;
+    gap: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+form div{
+    
+    display: flex;
+    flex-direction: column;
+}
+form h1{
+    display: flex;
+    justify-content: center ;
+}
+form input{
+    padding-left: 10px;
+    height: 28px;
+    border: transparent;
+    border-radius: 10px;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    height: 28px;
+    }
+textarea{
+    border:transparent;
+    resize: none;
+    padding-top: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+form button{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #23b976;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
