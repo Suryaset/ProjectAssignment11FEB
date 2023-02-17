@@ -40,6 +40,7 @@ body{
     color: white;
 
 }
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -410,4 +411,65 @@ form button{
     border: none;
     padding: 19px 40px;
     border-radius: 40px;
+}
+
+
+/* ANIMATIONS */
+
+.hdrlist li a:hover{
+    transition-duration: .5s;
+    transition-delay: .4s;
+    transition-timing-function: ease-in-out;
+    color: rgb(35, 208, 208);
+    background-color: rgb(55, 55, 57);
+    border: 2px dashed aqua;
+    padding: 3px 3px;
+    border-radius: 3px;
+    text-decoration:underline;
+    font-size: 16px;
+    font-weight: 500;
+      
+}
+
+ button:hover{
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: ease-out;
+    background-color: #47474b;
+    border: 2px dashed aqua;
+    padding: 10px 30px;
+    color: aqua;
+
+}
+.footer-links * li a:hover{
+    transition-duration: .5s;
+    transition-delay: .4s;
+    transition-timing-function: ease-in-out;
+    color: rgb(35, 208, 208);
+    background-color: rgb(55, 55, 57);
+    border: 1   px dashed aqua;
+    padding: 3px 3px;
+    border-radius: 3px;
+    text-decoration:underline;
+    font-weight: 400;
+    font-size: 95%;
+
+
+}
+h1:hover{
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: ease-out;
+    color: rgb(23, 209, 209);
+    
+}
+.socialmediaicons img:hover{
+    transition-duration: .5s;
+    transition-delay: .4s;
+    transition-timing-function: ease-in-out;
+    color: rgb(35, 208, 208);
+    background-color: aqua;
+    border: 2px dashed rgb(36, 38, 38);
+    padding: 4px 4px;
+    border-radius: 30%;
 }
